@@ -1,0 +1,31 @@
+.skeleton_grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skeleton_container{
+    width: fit-content;
+    height: 300px;
+    background-color: rgb(196, 187, 187);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.skeleton_image{
+    border-radius: 999px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.skeleton_text{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
