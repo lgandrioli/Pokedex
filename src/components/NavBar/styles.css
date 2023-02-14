@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-left: 20px;
   background-color: rgb(247, 70, 70);
   height: 120px;
 }
@@ -31,27 +30,21 @@
   height: 60px;
   background: #fff;
   border-radius: 999px;
- 
 }
-.pokeball:hover{
-  animation: shake 0.5s alternate 7;
+.pokeball_mobile {
+  display: none;
+}
+.pokeball:hover {
+  animation: shake 0.5s alternate 2;
+}
+
+.hamburger_menu{
+  display: none;
 }
 
 @keyframes shake {
   20% {
     transform: translate(-2px, 0) rotate(-10deg);
-  }
-  30% {
-    transform: translate(2px, 0) rotate(10deg);
-  }
-  50% {
-    transform: translate(-2px, 0) rotate(-5deg);
-  }
-  60% {
-    transform: translate(2px, 0) rotate(5deg);
-  }
-  100% {
-    transform: translate(0, 0) rotate(0);
   }
 }
 
@@ -85,6 +78,9 @@
   display: flex;
   list-style: none;
 }
+.hamburger_mobile {
+  display: none;
+}
 
 .listItem {
   padding: 20px;
@@ -98,9 +94,46 @@
   box-shadow: 0 4px 2px rgba(146, 141, 141, 0.9);
   font-family: "lexend", sans-serif;
 }
+.list_mobile {
+  display: none;
+}
 
 .listItem:hover {
   background-color: rgb(238, 238, 238);
   transition: 200ms;
   animation: bounce 0.8s linear;
+}
+
+@media (max-width: 1150px) {
+  .listItem {
+    display: none;
+  }
+
+  .hamburger_menu{display: contents
+    ;color: white;}
+
+  .hamburger_menu:hover{
+  color: #000000;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .navbarLogo {
+    display: none;
+  }
+
+  .pokeball_mobile {
+    display: flex;
+    width: 80px;
+    background-color: #fff;
+    border-radius: 999px;
+  }
+
+  .navbar {
+    justify-content:space-between;
+    padding: 0 20px;
+  }
+
+  
 }

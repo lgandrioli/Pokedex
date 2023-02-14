@@ -32,3 +32,9 @@
     box-shadow: 2px 2px 5px;
     border: none;
 }
+
+.pagination_button:hover{
+background-color: rgb(247, 244, 244);
+color: black;
+transition: 0.2s;
+}

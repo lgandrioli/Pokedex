@@ -1,7 +1,6 @@
 import React from "react";
 import Pagination from "../pagination";
 import Pokemon from "../pokemonCard";
-import SearchBar from "../searchbar";
 import CardSkeleton from "../skeletons/pokemonCardSkeleton";
 import "./styles.css";
 

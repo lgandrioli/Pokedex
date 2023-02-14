@@ -1,0 +1,42 @@
+.container_mobile{display: none;}
+
+
+@media (max-width: 1150px) {
+.container_mobile{
+    position: absolute;
+    width: 200px;
+    height: fit-content;
+    right: 0;
+    top:120px;
+    z-index:5;
+    display: flex;
+    background:rgb(202, 56, 56,0.8);
+    padding: 10px;
+}
+
+
+
+.list_mobile{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.listItem_mobile{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    background-color: aliceblue;
+    border-radius: 999px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.listItem_mobile:hover{
+    background-color: black;
+    color: white;
+}
+}
