@@ -30,6 +30,7 @@
   height: 60px;
   background: #fff;
   border-radius: 999px;
+  box-shadow: 5px 5px rgb(207, 205, 205);
 }
 .pokeball_mobile {
   display: none;
@@ -70,8 +71,10 @@
   font-size: 80px;
   font-weight: 900;
   display: flex;
-  color: rgb(223, 223, 223);
+  color: rgb(247, 247, 247);
   align-items: center;
+  text-shadow: 5px 5px rgb(128, 127, 127);
+  text-indent: 5px;
 }
 
 .list {
@@ -83,16 +86,15 @@
 }
 
 .listItem {
-  padding: 20px;
+  padding: 10px;
   text-decoration: none;
   color: rgb(10, 10, 10);
   font-size: 25px;
   font-weight: 600;
-  background-color: rgb(197, 196, 196);
-  margin: 5px;
+  background-color: rgb(248, 248, 248);
+  margin: 0 10px;
   border-radius: 5px;
-  box-shadow: 0 4px 2px rgba(146, 141, 141, 0.9);
-  font-family: "lexend", sans-serif;
+  box-shadow: 5px 5px rgba(146, 141, 141, 0.9);
 }
 .list_mobile {
   display: none;
@@ -128,6 +130,8 @@
     width: 80px;
     background-color: #fff;
     border-radius: 999px;
+    box-shadow: 5px 5px rgb(207, 205, 205);
+
   }
 
   .navbar {
