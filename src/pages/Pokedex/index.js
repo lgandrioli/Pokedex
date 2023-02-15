@@ -12,7 +12,7 @@ function Pokedex() {
   const [page, setPage] = useState(0);
   const [totalPages, setTotalPages] = useState(0);
   const [loading, setLoading] = useState(false);
-  const [notFound, setNotFound] = useState(false);
+  const [, setNotFound] = useState(false);
 
   const [pokemons, setPokemons] = useState([]);
 

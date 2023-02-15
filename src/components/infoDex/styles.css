@@ -3,8 +3,9 @@ height: 100%;
 display: flex;
 flex-direction: column;
 padding: 20px;
-background-image: url('../assets/backImage.png');
+background-image: linear-gradient(0deg,rgba(249, 249, 249, 0.3),rgba(255, 255, 255, 0.3)), url('../assets/backImage.png');
 }
+
 
 .header{
     display: flex;
