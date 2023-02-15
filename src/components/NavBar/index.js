@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import images from "../images/pikachu.png";
-import pokeball from "../images/pokeball.png";
+import images from "../assets/pikachu.png";
+import pokeball from "../assets/pokeball.png";
 import "./styles.css";
 import { Link } from "react-router-dom";
 import { HiOutlineMenu } from "react-icons/hi";
@@ -9,6 +9,8 @@ import MenuMobile from "../menuMobile";
 function NavBar() {
 const[sidebar,setSideBar] = useState(false)
 const showSideBar = () => setSideBar(!sidebar)
+
+
   
   return (
     <>
@@ -43,7 +45,7 @@ const showSideBar = () => setSideBar(!sidebar)
             Pokedex
           </Link>
           <Link className="listItem" to="/curiosidades">
-            Curiosidades
+            Curiosities
           </Link>
           <Link className="listItem" to="/tvshowpage">
             Tv Show

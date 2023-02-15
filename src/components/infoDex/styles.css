@@ -3,7 +3,7 @@ height: 100%;
 display: flex;
 flex-direction: column;
 padding: 20px;
-background-image: url('../images/backImage.png');
+background-image: url('../assets/backImage.png');
 }
 
 .header{

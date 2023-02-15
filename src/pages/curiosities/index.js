@@ -15,7 +15,6 @@ function PokemonCuriositiesPage() {
 
   return (
     <div className="body_background">
-
       <div className="body">
         <h1 className="curiosities_title">
           Curiosidades sobre o mundo Pokemon

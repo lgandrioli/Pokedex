@@ -1,208 +1,224 @@
 .grass {
-  background: #7AC74C;
-  margin: 5px;
-  padding: 5px;
-  border-radius: 10px;
+  background: #7ac74c;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+
+  border: 1px solid black;
 }
 .fire {
-  background: #EE8130;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #ee8130;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 
 .water {
-  background: #6390F0;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #6390f0;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  margin: 5px;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 .bug {
-  background: #A6B91A;
-  padding: 5px;
-  margin: 5px;
+  background: #a6b91a;
+  padding: 10px;
 
-  border-radius: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 .normal {
-  background: #A8A77A;
-  padding: 5px;
-  margin: 5px;
+  background: #a8a77a;
+  padding: 10px;
 
-  border-radius: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 
 .poison {
-  background: #A33EA1;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #a33ea1;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 .electric {
-  background: #F7D02C;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #f7d02c;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 
 .ground {
-  background: #E2BF65;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #e2bf65;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 
 .fairy {
-  background: #D685AD;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #d685ad;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 .psychic {
-  background: #F95587;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #f95587;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 .fighting {
-  background: #C22E28;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #c22e28;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 .rock {
-  background: #B6A136;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #b6a136;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 .ice {
-  background: #96D9D6;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #96d9d6;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 .ghost {
   background: #735797;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 .dragon {
-  background: #6F35FC;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #6f35fc;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 .dark {
   background: #705746;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 .flying {
-  background: #A98FF3;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #a98ff3;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
 
 .steel {
-  background: #B7B7CE;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
+  background: #b7b7ce;
+  padding: 10px;
+  border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   min-width: 100px;
+  border: 1px solid black;
 }
-
-

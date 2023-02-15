@@ -20,14 +20,14 @@ const SearchBar = (props) => {
     <div className="searchbar_container">
       <div>
         <input
-          placeholder="Buscar Pokemon"
+          placeholder="Search Pokemon"
           className="searchbar"
           onChange={onChangeHandler}
         />
       </div>
 
       <button className="searchbar_button" onClick={buttonHandleClick}><p>
-        Buscar</p><HiOutlineMagnifyingGlass size={20}/>
+        Search</p><HiOutlineMagnifyingGlass size={20}/>
       </button>
     </div>
   );

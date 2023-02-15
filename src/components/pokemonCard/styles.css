@@ -1,13 +1,8 @@
 .pokemon_card {
-  border: 1px solid rgb(0, 0, 0);
   max-width: fit-content;
   display: flex;
   flex-direction: column;
-  background-color: rgb(184, 184, 184);
-  border-radius: 10px;
   margin: 20px;
-  padding: 10px;
-  box-shadow: 1px 1px 2px;
   cursor: default;
 }
 
@@ -30,7 +25,6 @@
   background-color: rgb(253, 253, 253);
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   border-radius: 10px;
   margin-top: 5px;
   min-height: 90px;
@@ -44,7 +38,8 @@
   margin-bottom: 5px;
   background-color: rgb(253, 253, 253);
   justify-content: center;
-  box-shadow: 2px 2px gray;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
   border-radius: 10px;
 }
 
