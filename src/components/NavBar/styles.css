@@ -31,6 +31,7 @@
   background: #fff;
   border-radius: 999px;
   box-shadow: 5px 5px rgb(207, 205, 205);
+  cursor: pointer;
 }
 .pokeball_mobile {
   display: none;

@@ -1,0 +1,71 @@
+{
+   "curiosities": [ {
+    "id":1,
+    "title": "First Pokemon Created",
+    "description": "The first Pokemon ever created was Rhydon. It was designed by Game Freak's co-founder Ken Sugimori and first appeared in the original Pokemon Red and Green games for Game Boy in 1996.",
+    "image" :"https://ik.imagekit.io/lgandrioli/rhydon.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676421036525"
+  },
+   {
+    "id":2,
+    "title": "Pikachu's Original Name",
+    "description": "Pikachu was originally called 'Capsule Monster' and was not intended to be a main character. However, due to its overwhelming popularity, Pikachu quickly became the most recognized Pokemon and has been featured prominently in all Pokemon media.",
+    "image":"https://ik.imagekit.io/lgandrioli/pikachu.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676421189045"
+  },
+    {
+    "id":3,
+    "title": "Highest Base Stat Total",
+    "description": "Arceus has the highest base stat total of all Pokemon, with a total of 720. This god-like Pokemon can change its type depending on the plate it is holding and has the ability to learn any move in the game.",
+    "image": "https://ik.imagekit.io/lgandrioli/493.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676421298970"
+
+  },
+  {
+    "id":4,
+    "title": "Pokemon Mythology",
+    "description": "Pokemon mythology is heavily influenced by Japanese folklore and Shintoism. For example, the legendary Pokemon Zapdos, Articuno, and Moltres are based on the Japanese myth of the three-legged crow, while the legendary Pokemon Raikou, Entei, and Suicune are based on the Chinese myth of the three noble animals.",
+    "image":"https://ik.imagekit.io/lgandrioli/zap.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676421581236"
+
+  },
+  {
+    "id":5,
+    "title": "MissingNo. Glitch",
+    "description": "The MissingNo. glitch in the original Pokemon games was caused by an error in the game's programming. This glitch can cause all sorts of strange things to happen, such as corrupting save data and duplicating items.",
+    "image":"https://ik.imagekit.io/lgandrioli/missing.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676421720145"
+
+  },
+  {
+    "id":6,
+    "title": "Pokeballs are Made of Apricorns",
+    "description": "In the Pokemon world, pokeballs are made from the shells of apricorns, a type of fruit that grows on trees. Different colored apricorns can be used to make different types of pokeballs, such as red for a regular pokeball or yellow for a thunderball.",
+    "image":"https://ik.imagekit.io/lgandrioli/Apricorn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676421666634"
+
+  },
+   {
+    "id":7,
+    "title": "Most Expensive Pokemon Card",
+    "description": "The most expensive Pokemon card ever sold is the Pikachu Illustrator card. Only 39 copies of this card were ever made, and one sold for $233,000 at an auction in 2019.",
+    "image":"https://ik.imagekit.io/lgandrioli/pokecard.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676422183289"
+
+  },
+ {
+    "id":8,
+    "title": "Professor Oak's Japanese Name",
+    "description": "Professor Oak's Japanese name is Dr. Okido. This is a reference to the creator of the Pokemon franchise, Satoshi Tajiri, whose name can be written in Japanese as 'tajiri sato'. When written backwards, this becomes 'okido sato'.",
+    "image":"https://ik.imagekit.io/lgandrioli/oakprofessor.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676422245322"
+
+  },
+  {
+    "id":9,
+    "title": "The Pokemon Anime's Original Concept",
+    "description": "The original concept for the Pokemon anime was much darker than the final product. The show was originally going to be more violent and include more mature themes, such as death and romance. However, the creators decided to make the show more kid-friendly to appeal to a wider audience.",
+    "image":"https://ik.imagekit.io/lgandrioli/pokemon.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1676423535615"
+
+  },
+   {
+    "id":10,
+    "title": "Mew's Origin",
+    "description": "Mew, the legendary Pokemon, was originally created as a secret Pokemon that could only be obtained through special events. However, due to its popularity, Mew was eventually included in the original Pokemon games as a catchable Pokemon. Mew is also the ancestor of all other Pokemon in the game",
+    "image":"https://ik.imagekit.io/lgandrioli/mew.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1676423571823"
+
+  }
+] 
+}

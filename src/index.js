@@ -5,6 +5,8 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import TvShowPage from './pages/tvshow';
 import Pokedex from './pages/Pokedex';
+import PokemonCuriositiesPage from './pages/curiosities';
+
 
 
 
@@ -17,6 +19,8 @@ root.render(
 <Routes>
 <Route exact path="/tvshowpage" element={<TvShowPage />} />
 <Route exact path="/" element={<Pokedex />} />
+<Route exact path="/curiosidades" element={<PokemonCuriositiesPage />} />
+
   </Routes></BrowserRouter>
   </React.StrictMode>
 );

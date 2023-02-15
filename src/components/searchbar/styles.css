@@ -21,6 +21,13 @@
   color: white;
   background-color: rgb(31, 31, 31);
   cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchbar_button p{
+  margin-right: 5px;
 }
 
 .searchbar_button:hover{
@@ -28,3 +35,14 @@
   color: rgb(31, 31, 31);
 }
 
+
+@media  screen and (max-width:500px) {
+  .searchbar_button p{
+    display:none
+  }
+
+  .searchbar_button{
+    padding: 10px;
+  }
+
+}

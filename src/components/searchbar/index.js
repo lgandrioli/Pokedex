@@ -1,5 +1,6 @@
 import React, {  useState } from "react";
 import "./styles.css";
+import { HiOutlineMagnifyingGlass } from "react-icons/hi2"
 
 const SearchBar = (props) => {
   const [search, setSearch] = useState("ditto");
@@ -25,8 +26,8 @@ const SearchBar = (props) => {
         />
       </div>
 
-      <button className="searchbar_button" onClick={buttonHandleClick}>
-        Buscar
+      <button className="searchbar_button" onClick={buttonHandleClick}><p>
+        Buscar</p><HiOutlineMagnifyingGlass size={20}/>
       </button>
     </div>
   );

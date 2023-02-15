@@ -19,7 +19,13 @@ const showSideBar = () => setSideBar(!sidebar)
         </div>
         <p className="navbarText">
           P
-          <img className="pokeball" src={pokeball} alt="icone de pokebola" />
+          <Link to="/">
+          <img
+            src={pokeball}
+            className="pokeball"
+            alt="logo de pokebola"
+          />
+        </Link>
           keApi
         </p>
       </div>
@@ -36,7 +42,7 @@ const showSideBar = () => setSideBar(!sidebar)
           <Link className="listItem" to="/">
             Pokedex
           </Link>
-          <Link className="listItem" to="/">
+          <Link className="listItem" to="/curiosidades">
             Curiosidades
           </Link>
           <Link className="listItem" to="/tvshowpage">

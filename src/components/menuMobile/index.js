@@ -10,7 +10,7 @@ function MenuMobile({active}) {
           <Link className="listItem_mobile" to="/">
             Pokedex
           </Link>
-          <Link className="listItem_mobile" to="/">
+          <Link className="listItem_mobile" to="/curiosidades">
             Curiosidades
           </Link>
           <Link className="listItem_mobile" to="/tvshowpage">
