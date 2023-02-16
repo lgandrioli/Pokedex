@@ -20,7 +20,7 @@ const SearchBar = (props) => {
     <div className="searchbar_container">
       <div>
         <input
-          placeholder="Search Pokemon"
+          placeholder="Search a Pokemon . . ."
           className="searchbar"
           onChange={onChangeHandler}
         />
