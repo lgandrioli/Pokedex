@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./styles.css";
 import "./types.css";
-import {MdOutlineArrowDropDownCircle} from "react-icons/md"
+import { MdOutlineArrowDropDownCircle } from "react-icons/md";
+import { AiFillStar } from "react-icons/ai";
 
 function Pokemon(props) {
   const { pokemon } = props;
@@ -12,18 +13,33 @@ function Pokemon(props) {
     setShowStats(!showStats);
   };
 
+  const [isShiny, setIsShiny] = useState(false);
+
+  const handleToggleShiny = () => {
+    setIsShiny(!isShiny);
+  };
+
   return (
     <body className="pokemon_card">
       <div className={pokemon.types[0].type.name}>
         <div className="card_header">
           <div>
-          <h3>{pokemon.name}</h3>
-          <div>#{pokemon.id}</div>
+            <h3>{pokemon.name}</h3>
+            <div>#{pokemon.id}</div>
           </div>
-          <button type="button" onClick={handleShowStats} className="pokemon_stats_button"><MdOutlineArrowDropDownCircle size={30}/></button>
+          <button
+            type="button"
+            onClick={handleShowStats}
+            className="pokemon_stats_button"
+          >
+            <MdOutlineArrowDropDownCircle size={30} />
+          </button>
 
-          {showStats && (<>
-              <div className={"pokemon_stats"}> STATS:
+          {showStats && (
+            <>
+              <div className={"pokemon_stats"}>
+                {" "}
+                STATS:
                 {pokemon.stats.map((stat, index) => {
                   return (
                     <div
@@ -36,13 +52,24 @@ function Pokemon(props) {
                   );
                 })}
               </div>
-              </>
-            )}
+            </>
+          )}
         </div>
+        <button
+          type="button"
+          className="pokemon_shiny_button"
+          onClick={handleToggleShiny}
+        >
+          <AiFillStar size={30} color={isShiny ? "gold" : "#fdfdfd"} />
+        </button>
         <div className="pokemon_image-container">
           <img
             alt={pokemon.name}
-            src={pokemon.sprites.other.dream_world.front_default}
+            src={
+              isShiny
+                ? pokemon.sprites.front_shiny
+                : pokemon.sprites.front_default
+            }
             className="pokemon_image"
           />
         </div>
@@ -61,7 +88,6 @@ function Pokemon(props) {
                 );
               })}
             </div>
-            
           </div>
         </div>
       </div>
