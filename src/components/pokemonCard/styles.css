@@ -1,5 +1,5 @@
 .pokemon_card {
-  max-width: fit-content;
+  min-width: 310px;
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -10,10 +10,13 @@
   background-color: #fdfdfd;
   border-radius: 999px;
   box-shadow: 2px 2px 2px 2px gray;
+overflow: visible;
 }
 
 .pokemon_image {
-  width: 250px;
+  width: 300px;
+  height: 300px;
+  position: relative;
 }
 
 .pokemon_image:hover {

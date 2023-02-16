@@ -22,7 +22,7 @@ function Pokemon(props) {
           </div>
           <button type="button" onClick={handleShowStats} className="pokemon_stats_button"><MdOutlineArrowDropDownCircle size={30}/></button>
 
-          {showStats && (
+          {showStats && (<>
               <div className={"pokemon_stats"}> STATS:
                 {pokemon.stats.map((stat, index) => {
                   return (
@@ -36,12 +36,13 @@ function Pokemon(props) {
                   );
                 })}
               </div>
+              </>
             )}
         </div>
         <div className="pokemon_image-container">
           <img
             alt={pokemon.name}
-            src={pokemon.sprites.front_default}
+            src={pokemon.sprites.other.dream_world.front_default}
             className="pokemon_image"
           />
         </div>
