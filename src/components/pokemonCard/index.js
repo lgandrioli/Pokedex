@@ -16,12 +16,14 @@ function Pokemon(props) {
     <body className="pokemon_card">
       <div className={pokemon.types[0].type.name}>
         <div className="card_header">
+          <div>
           <h3>{pokemon.name}</h3>
           <div>#{pokemon.id}</div>
-          <button type="button" onClick={handleShowStats} className="pokemon_stats_button"><MdOutlineArrowDropDownCircle size={20}/></button>
+          </div>
+          <button type="button" onClick={handleShowStats} className="pokemon_stats_button"><MdOutlineArrowDropDownCircle size={30}/></button>
 
           {showStats && (
-              <div className="pokemon_stats"> STATS:
+              <div className={"pokemon_stats"}> STATS:
                 {pokemon.stats.map((stat, index) => {
                   return (
                     <div
