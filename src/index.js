@@ -7,6 +7,7 @@ import TvShowPage from './pages/tvshow';
 import Pokedex from './pages/Pokedex';
 import PokemonCuriositiesPage from './pages/curiosities';
 import Footer from './components/footer';
+import Store from './pages/store/store';
 
 
 
@@ -21,6 +22,7 @@ root.render(
 <Route exact path="/tvshowpage" element={<TvShowPage />} />
 <Route exact path="/" element={<Pokedex />} />
 <Route exact path="/curiosidades" element={<PokemonCuriositiesPage />} />
+<Route exact path="/store" element={<Store />} />
 
   </Routes><Footer/></BrowserRouter>
   </React.StrictMode>

@@ -50,7 +50,7 @@ const showSideBar = () => setSideBar(!sidebar)
           <Link className="listItem" to="/tvshowpage">
             Tv Show
           </Link>
-          <Link className="listItem" to="/">
+          <Link className="listItem" to="/store">
             Store
           </Link>
         </ul>

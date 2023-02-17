@@ -1,0 +1,110 @@
+.store {
+  display: flex;
+  flex-direction: column;
+  background-color: #fdfdfd;
+  min-height: 2000px;
+}
+
+
+.store_image {
+  position: relative;
+  max-height: 400px;
+  width: 100%;
+}
+
+.store_text {
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: rgba(15, 15, 15, 0.8);
+  font-size: 50px;
+  font-weight: 900;
+  width: 600px;
+  height: fit-content;
+  left: 0;
+  bottom: 200px;
+  padding: 5px;
+  border-radius: 0 10px 10px 0;
+  padding: 0 10px;
+}
+
+.store_searchbar {
+  position: relative;
+  padding: 10px;
+  height: 20px;
+  width: 555px;
+  bottom: 200px;
+  margin: 5px 30px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px black;
+}
+
+
+.pokemon_items_list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon_item{
+    max-width: 400px;
+    background-color: rgb(173, 247, 247);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.pokemon_item_image{
+    width: 300px;
+    height: 200px;
+}
+
+.pokemon_item_text{
+    background-color: rgb(216, 216, 217);
+    padding: 10px;
+    border-radius: 10px;
+    overflow: auto;
+    height: 260px;
+}
+
+.item_price{
+    background-color: rgb(228, 228, 153);
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+.pokemon_item_name{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.item_price_div{
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+.item_cart{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.pokemon_item_description{
+    text-transform:lowercase;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.pokemon_items_list :first-child .item_price{
+   
+ text-decoration: line-through;
+}
