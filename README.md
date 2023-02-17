@@ -5,6 +5,7 @@ its a Pokedex using pokeApi as source for the pokemons.
 knowledges in use:javascript,html,css,reactJS,Api
 
 npm start
-npm run backend  //to fetch the api 
+
+npm run backend //to fetch the api 
 
 <img src="https://ik.imagekit.io/lgandrioli/image.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676598372888" alt="pokedex">
