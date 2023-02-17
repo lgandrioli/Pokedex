@@ -17,7 +17,7 @@ function PokemonCuriositiesPage() {
     <div className="body_background">
       <div className="body">
         <h1 className="curiosities_title">
-          Curiosidades sobre o mundo Pokemon
+          Curiosities about the pokemon World
         </h1>
         <ul className="curiosities_list">
           {curiosities.map((curiosity) => (

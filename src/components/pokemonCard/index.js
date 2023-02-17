@@ -38,7 +38,7 @@ function Pokemon(props) {
           {showStats && (
             <>
               <div className={"pokemon_stats"}>
-                {" "}
+
                 STATS:
                 {pokemon.stats.map((stat, index) => {
                   return (
@@ -60,7 +60,7 @@ function Pokemon(props) {
           className="pokemon_shiny_button"
           onClick={handleToggleShiny}
         >
-          <AiFillStar size={30} color={isShiny ? "gold" : "#fdfdfd"} />
+          <AiFillStar size={32} color={isShiny ? "#e1ad03" : "#fdfdfd"} />
         </button>
         <div className="pokemon_image-container">
           <img
