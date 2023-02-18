@@ -16,7 +16,7 @@ function MenuMobile({active}) {
           <Link className="listItem_mobile" to="/tvshowpage">
             Tv Show
           </Link>
-          <Link className="listItem_mobile" to="/">
+          <Link className="listItem_mobile" to="/store">
             Store
           </Link>
         </ul>
