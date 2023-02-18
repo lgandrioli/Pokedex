@@ -4,6 +4,8 @@ its a Pokedex using pokeApi as source for the pokemons.
 
 knowledges in use:javascript,html,css,reactJS,Api
 
+npm install
+
 npm start
 
 npm run backend //to fetch the api 
