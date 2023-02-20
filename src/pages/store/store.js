@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./styles.css";
 import { IoCart } from "react-icons/io5";
-import {CiCircleRemove} from "react-icons/ci"
+import { CiCircleRemove } from "react-icons/ci";
 
 const Store = () => {
   const [pokemonItems, setPokemonItems] = useState([]);
@@ -10,12 +10,12 @@ const Store = () => {
   const [showCart, setShowCart] = useState(false);
   const cartRef = useRef(null);
 
-
   const fetchPokemonItems = async () => {
     try {
-      const response = await fetch(`https://pokeapi.co/api/v2/item?limit=50`);
+      const response = await fetch(
+        `https://pokeapi.co/api/v2/item?limit=30&offset=1`
+      );
       const data = await response.json();
-
 
       const itemsWithSprites = await Promise.all(
         data.results.map(async (item) => {
@@ -46,7 +46,9 @@ const Store = () => {
   };
   const removeFromCart = (event, item) => {
     event.stopPropagation();
-    setCartItems((prevCartItems) => prevCartItems.filter((i) => i.name !== item.name));
+    setCartItems((prevCartItems) =>
+      prevCartItems.filter((i) => i.name !== item.name)
+    );
   };
 
   const handleClick = (event) => {
@@ -60,9 +62,9 @@ const Store = () => {
     setShowCart(false);
   };
   useEffect(() => {
-    document.addEventListener('mousedown', handleClick);
+    document.addEventListener("mousedown", handleClick);
     return () => {
-      document.removeEventListener('mousedown', handleClick);
+      document.removeEventListener("mousedown", handleClick);
     };
   }, []);
 
@@ -77,6 +79,7 @@ const Store = () => {
   const filteredItems = pokemonItems.filter((item) =>
     item.name.includes(searchItem)
   );
+  console.log(pokemonItems);
 
   return (
     <div className="store">
@@ -95,29 +98,36 @@ const Store = () => {
         ></input>
       </div>
       <div className="cart_container">
-      your cart
-      <button onClick={handleShowCart} className="button_cart">
-        <IoCart size={40} />
-        {showCart && (
+        your cart
+        <button onClick={handleShowCart} className="button_cart">
+          <IoCart size={40} />
+          {showCart && (
             <>
-       
-          <div className="cart" ref={cartRef }>
-          <button onClick={handleShowCart} className="closeicon"><CiCircleRemove size={30}/></button>
-            {cartItems.length === 0 ? (
-              <p className="cart_text">Your cart is empty :( ... Try adding something to it!</p>
-            ) : (
-              <ul className="cart_list">
-                {cartItems.map((item) => (
-                  <li key={item.name} className="cart_item"><img src={item.sprite} alt={item.name}/>{item.name} ${item.cost}<div onClick={(event) =>removeFromCart(event,item)}><CiCircleRemove size={20}/></div></li>
-                ))}
-               
-              </ul>
-            )}
-            
-          </div>
-          </>
-        )}
-      </button>
+              <div className="cart" ref={cartRef}>
+                <button onClick={handleShowCart} className="closeicon">
+                  <CiCircleRemove size={30} />
+                </button>
+                {cartItems.length === 0 ? (
+                  <p className="cart_text">
+                    Your cart is empty :( ... Try adding something to it!
+                  </p>
+                ) : (
+                  <ul className="cart_list">
+                    {cartItems.map((item) => (
+                      <li key={item.name} className="cart_item">
+                        <img src={item.sprite} alt={item.name} />
+                        {item.name} ${item.cost}
+                        <div onClick={(event) => removeFromCart(event, item)}>
+                          <CiCircleRemove size={20} />
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </>
+          )}
+        </button>
       </div>
       <div className="pokemon_items_list">
         {pokemonItems &&

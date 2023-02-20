@@ -5,7 +5,7 @@
 
 .skeleton_container{
     width: fit-content;
-    height: 300px;
+    height: 500px;
     background-color: rgb(196, 187, 187);
     border-radius: 10px;
     display: flex;
@@ -18,14 +18,16 @@
 .skeleton_image{
     border-radius: 999px;
     background-color: white;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin-bottom: 10px;
 }
 
 .skeleton_text{
     width: 200px;
-    height: 80px;
+    height: 50px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px 20px;
+    margin: 10px;
 }
+

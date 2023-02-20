@@ -10,7 +10,7 @@ function Pagination(props) {
         <FaChevronLeft size={20}/>
       </button>
       <div className="pagination_text">
-        {page} de {totalPages}
+        {page} of {totalPages}
       </div>
       <button onClick={onNextClick} className="pagination_button">
         <FaChevronRight size={20}/>

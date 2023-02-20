@@ -19,6 +19,8 @@ function Pokemon(props) {
     setIsShiny(!isShiny);
   };
 
+
+
   return (
     <body className="pokemon_card">
       <div className={pokemon.types[0].type.name}>
@@ -40,20 +42,24 @@ function Pokemon(props) {
               <div className={"pokemon_stats"}>
 
                 STATS:
-                {pokemon.stats.map((stat, index) => {
+                {pokemon.stats.map((stats, index) => {
                   return (
+                    <>
                     <div
                       key={index}
-                      className={stat.stat.name}
-                      id={stat.stat.name}
+                      className={stats.stat.name}
+                      id={stats.stat.name}
                     >
-                      {stat.stat.name} : {stat.base_stat}
+                      {stats.stat.name} : {stats.base_stat}
                     </div>
+                    </>
                   );
                 })}
               </div>
+              
             </>
           )}
+
         </div>
         <button
           type="button"
@@ -67,8 +73,8 @@ function Pokemon(props) {
             alt={pokemon.name}
             src={
               isShiny
-                ? pokemon.sprites.front_shiny
-                : pokemon.sprites.front_default
+                ? pokemon.sprites.other["official-artwork"].front_shiny
+                : pokemon.sprites.other["official-artwork"].front_default
             }
             className="pokemon_image"
           />

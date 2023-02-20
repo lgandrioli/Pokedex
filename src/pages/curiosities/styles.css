@@ -1,10 +1,8 @@
 .body_background {
   height: cover;
-
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
   background-image: url("../../components/assets/cloudBackImage.jpg");
 }
 
@@ -18,12 +16,12 @@
 }
 
 .curiosities_title {
-  background-color: rgb(186, 248, 191);
+  background-color: var(--red-primary);
   color: var(--black-primary);
+  border-radius: 10px;
   padding: 40px;
-  border-radius: 999px;
-  margin-bottom: 100px;
-  font-size: 40px;
+  margin-bottom: 30px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -32,19 +30,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0;
-  background-color: rgb(243, 241, 241,0.7);
-  border-radius: 20px;
+  background-color: rgb(243, 241, 241, 0.7);
+  border-radius: 10px;
 }
 
 .curiosities_item {
-  background-color: rgb(208, 208, 203);
+  background-color: rgb(208, 208, 208);
   margin: 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border-radius: 20px;
-  overflow: hidden;
+  border-radius: 10px;
+  overflow: auto;
 }
 
 .curiosities_item-description {
@@ -61,10 +57,12 @@
 
 .curiosities_item-description h2 {
   color: var(--black-primary);
+  margin-left: 30px;
 }
 
 .curiosities_item-description p {
   padding: 20px 10px;
+  text-indent: 20px;
 }
 
 .curiosities_img {
@@ -74,14 +72,13 @@
 }
 
 ::-webkit-scrollbar {
-width: 5px;
-height: 8px;
-background-color: var(--white-primary);
+  width: 5px;
+  height: 8px;
+  background-color: var(--white-primary);
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: var(--black-primary);
-
 }
 
 @media screen and (max-width: 1100px) {
@@ -99,8 +96,6 @@ background-color: var(--white-primary);
     display: block;
     overflow: auto;
   }
-
-  
 }
 
 @media screen and (max-width: 700px) {
@@ -120,6 +115,12 @@ background-color: var(--white-primary);
 @media screen and (max-width: 400px) {
   .curiosities_title {
     padding: 5px;
+
+  }
+
+  .curiosities_item-description h2{
+    margin-left: 0;
+
   }
 
   .curiosities_item {
@@ -131,5 +132,6 @@ background-color: var(--white-primary);
   }
 
   .curiosities_item-description h2 {
-text-align: center;  }
+    text-align: center;
+  }
 }
