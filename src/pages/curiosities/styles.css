@@ -19,7 +19,7 @@
 
 .curiosities_title {
   background-color: rgb(186, 248, 191);
-  color: rgba(5, 5, 5);
+  color: var(--black-primary);
   padding: 40px;
   border-radius: 999px;
   margin-bottom: 100px;
@@ -49,7 +49,7 @@
 
 .curiosities_item-description {
   margin: 10px 20px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--white-primary);
   border-radius: 10px;
   font-size: 20px;
   height: 200px;
@@ -60,7 +60,7 @@
 }
 
 .curiosities_item-description h2 {
-  color: rgb(30, 29, 29);
+  color: var(--black-primary);
 }
 
 .curiosities_item-description p {
@@ -70,17 +70,17 @@
 .curiosities_img {
   width: 400px;
   height: 300px;
-  background-color: rgb(250, 247, 247);
+  background-color: var(--white-primary);
 }
 
 ::-webkit-scrollbar {
 width: 5px;
 height: 8px;
-background-color: #fdfdfd;
+background-color: var(--white-primary);
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: #121212;
+  background-color: var(--black-primary);
 
 }
 

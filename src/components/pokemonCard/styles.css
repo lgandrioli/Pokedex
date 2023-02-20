@@ -8,7 +8,7 @@
 }
 
 .pokemon_image-container {
-  background-color: #fdfdfd;
+  background-color: var(--white-primary);
   border-radius: 999px;
   box-shadow: 2px 2px 2px 2px gray;
   overflow: visible;
@@ -26,7 +26,7 @@
 
 .card_body {
   display: flex;
-  background-color: #fdfdfd;
+  background-color: var(--white-primary);
   flex-direction: column;
   justify-content: center;
   border-radius: 10px;
@@ -39,9 +39,9 @@
 .card_header {
   display: flex;
   margin-bottom: 5px;
-  background-color: rgb(253, 253, 253);
+  background-color: var(--white-primary);
   justify-content: space-between;
-  box-shadow: 2px 2px 2px rgb(12, 12, 12);
+  box-shadow: 2px 2px 2px var(--black-primary);
   border-radius: 10px;
 }
 
@@ -81,8 +81,8 @@
 .pokemon_stats_button {
   border: none;
   cursor: pointer;
-  background-color: #dc0909;
-  color: #fdfdfd;
+  background-color: var(--red-primary);
+  color: var(--white-primary);
   position: relative;
   width: 50px;
   border-radius: 8px;
@@ -92,18 +92,18 @@
 }
 
 .pokemon_stats_button:hover {
-  color: rgb(16, 16, 16);
+  color: var(--black-primary);
 }
 
 .pokemon_stats {
   position: absolute;
-  background-color: #fdfdfd;
+  background-color: var(--white-primary);
   flex-direction: column;
   z-index: 10;
   margin-top: 40px;
   height: 400px;
   border-radius: 0 0 10px 10px;
-  border: 2px solid black;
+  border: 2px solid var(--black-primary);
   display: flex;
   justify-content: end;
   overflow: hidden;
@@ -122,7 +122,7 @@
 }
 
 .pokemon_shiny_button {
-  background-color: #111111;
+  background-color: var(--black-primary);
   border: none;
   position: absolute;
   top: 50px;

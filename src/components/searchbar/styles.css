@@ -11,7 +11,7 @@
   padding: 10px;
   font-weight: 600;
   box-shadow: 0px 2px 2px (0, 0, 0, 0.25);
-  background-color: rgb(255, 255, 255);
+  background-color: var(--white-primary);
 width: 150px;}
   
 
@@ -21,8 +21,8 @@ width: 150px;}
   font-size: 20px;
   font-weight: 600;
   margin-left: 5px;
-  color: white;
-  background-color: rgb(31, 31, 31);
+  color: var(--white-primary);
+  background-color: var(--black-primary);
   cursor: pointer;
   align-items: center;
   display: flex;
@@ -34,8 +34,8 @@ width: 150px;}
 }
 
 .searchbar_button:hover{
-  background-color: rgb(255, 255, 255);
-  color: rgb(31, 31, 31);
+  background-color: var(--white-primary);
+  color: var(--black-primary);
 }
 
 

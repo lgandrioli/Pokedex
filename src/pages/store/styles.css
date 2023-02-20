@@ -1,7 +1,7 @@
 .store {
   display: flex;
   flex-direction: column;
-  background-color: #282828;
+  background-color: #2a2a2a;
   min-height: 2000px;
   padding: 20px;
 }
@@ -14,7 +14,7 @@
 
 .store_text {
   position: relative;
-  color: rgb(255, 255, 255);
+  color: var(--white-primary);
   background-color: rgba(15, 15, 15, 0.8);
   font-size: 50px;
   font-weight: 900;
@@ -96,7 +96,7 @@
 
 .item_cart {
   border: none;
-  background-color: rgba(0, 0, 0, 0);
+  background:none;
   cursor: pointer;
   align-items: center;
   display: flex;
@@ -104,7 +104,7 @@
   margin: 20px 0;
 }
 .item_cart:hover {
-  color: #6c6a6a;
+  color: #4d4d4d;
   transition: 0.3s;
 }
 

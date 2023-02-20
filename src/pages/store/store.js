@@ -89,7 +89,7 @@ const Store = () => {
         <p className="store_text">Find the best Items for your journey!</p>
         <input
           type="text"
-          placeholder="Search an Item..."
+          placeholder="Search an Item...🔎"
           onChange={handleSearch}
           className="store_searchbar"
         ></input>

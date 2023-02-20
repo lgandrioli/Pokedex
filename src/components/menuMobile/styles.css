@@ -8,10 +8,11 @@
     height: fit-content;
     right: 0;
     top:120px;
-    z-index:5;
+    z-index:10;
     display: flex;
-    background:rgb(202, 56, 56,0.8);
+    background:var(--red-primary);
     padding: 10px;
+    justify-content: center;
 }
 
 
@@ -28,15 +29,15 @@
 
 .listItem_mobile{
     text-decoration: none;
-    color: rgb(22, 22, 22);
-    background-color: aliceblue;
+    color: var(--black-primary);
+    background-color: var(--white-primary);
     border-radius: 999px;
     padding: 10px;
     font-size: 20px;
 }
 
 .listItem_mobile:hover{
-    background-color: black;
+    background-color: var(--black-primary);
     color: white;
 }
 }

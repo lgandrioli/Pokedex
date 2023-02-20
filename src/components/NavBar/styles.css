@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #f74646;
+  background-color:var(--red-primary);
   height: 120px;
 }
 
@@ -28,7 +28,7 @@
 .pokeball {
   width: 60px;
   height: 60px;
-  background: #fff;
+  background: var(--white-primary);
   border-radius: 999px;
   box-shadow: 5px 5px #cfcdcd;
   cursor: pointer;
@@ -72,7 +72,7 @@
   font-size: 80px;
   font-weight: 900;
   display: flex;
-  color: rgb(247, 247, 247);
+  color: var(--white-primary);
   align-items: center;
   text-shadow: 5px 5px rgb(128, 127, 127);
   text-indent: 5px;
@@ -88,7 +88,7 @@
 
 .listItem {
   text-decoration: none;
-  color: rgb(12, 12, 12);
+  color: var(--black-primary);
   font-size: 30px;
   font-weight: 600;
   margin: 0 10px;
@@ -101,8 +101,8 @@
 .listItem:hover {
   transition: 200ms;
   animation: bounce 0.8s linear;
-  text-decoration: underline #fefefe;
-  color: #fefefe;
+  text-decoration: underline var(--white-primary);
+  color: var(--white-primary);
 }
 
 @media (max-width: 1150px) {
@@ -111,10 +111,10 @@
   }
 
   .hamburger_menu{display: contents
-    ;color: #fefefe;}
+    ;color: var(--white-primary);}
 
   .hamburger_menu:hover{
-  color: #121212;
+  color: var(--black-primary);
   }
 
 }
@@ -127,7 +127,7 @@
   .pokeball_mobile {
     display: flex;
     width: 80px;
-    background-color: #fff;
+    background-color: var(--white-primary);
     border-radius: 999px;
     box-shadow: 5px 5px rgb(207, 205, 205);
 

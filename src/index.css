@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;600;800&display=swap');
 
 
+:root{
+/*Colors:*/
+--red-primary:#f74646;
+--white-primary:#fefefe;
+--black-primary: #121212;
+
+
+
+
+
+
+
+}
 *{
     margin: 0;
     font-family: 'lexend',sans-serif;

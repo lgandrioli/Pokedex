@@ -6,7 +6,7 @@ min-height: 100px;
 align-items: center;
 justify-content: space-around;
 padding: 0 50px;
-background-color: #F74646;
+background-color: var(--red-primary);
 flex-wrap: wrap;
 
 }
@@ -18,7 +18,7 @@ flex-wrap: wrap;
 
 .link_icon{
     margin: 10px;
-    color: #121212;
+    color: var(--black-primary);
 }
 
 .link_icon:hover{
@@ -37,14 +37,14 @@ flex-wrap: wrap;
 }
 
 .email_button{
-    color: #121212;
-    background-color: #12121200;
+    color: var(--black-primary);
+    background-color: var(--black-primary)00;
     border: none;
     align-items: center;
     display: flex;
 cursor: pointer;}
 
 .email_button:hover{
-    color: #fdfdfd;
+    color: var(--white-primary);
     transition: 0.4s;
 }

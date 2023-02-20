@@ -9,7 +9,6 @@ import PokemonCuriositiesPage from "./pages/curiosities";
 import Footer from "./components/footer";
 import Store from "./pages/store/store";
 
-// </Routes><Route exact path="/cart" element={<Cart/> }/>
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
