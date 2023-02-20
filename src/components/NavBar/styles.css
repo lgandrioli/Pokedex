@@ -32,6 +32,8 @@
   border-radius: 999px;
   box-shadow: 5px 5px #cfcdcd;
   cursor: pointer;
+  margin-right: 10px;
+
 }
 .pokeball_mobile {
   display: none;
@@ -69,13 +71,12 @@
 }
 
 .navbarText {
-  font-size: 80px;
-  font-weight: 900;
+  font-size: 55px;
+  font-family: 'Press Start 2P', cursive;;
   display: flex;
   color: var(--white-primary);
   align-items: center;
   text-shadow: 5px 5px rgb(128, 127, 127);
-  text-indent: 5px;
 }
 
 .list {

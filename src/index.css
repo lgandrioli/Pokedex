@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;600;800&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;600;800&family=Press+Start+2P&family=Roboto:wght@300;400;700;900&display=swap');
 
 :root{
 /*Colors:*/
 --red-primary:#f74646;
 --white-primary:#fefefe;
 --black-primary: #121212;
+--background-gradient:linear-gradient(to left,rgb(205, 11, 244)  ,rgb(132, 232, 241))
 
 
 
@@ -16,7 +16,7 @@
 }
 *{
     margin: 0;
-    font-family: 'lexend',sans-serif;
+    font-family: "Lexend",sans-serif;
 }
 
 *, *:before, *:after {

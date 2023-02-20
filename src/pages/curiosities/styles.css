@@ -1,9 +1,5 @@
 .body_background {
-  height: cover;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-image: url("../../components/assets/cloudBackImage.jpg");
+  background:var(--background-gradient)
 }
 
 .body {

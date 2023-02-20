@@ -10,14 +10,13 @@
 .pokemon_image-container {
   background-color: var(--white-primary);
   border-radius: 999px;
-  box-shadow: 2px 2px 2px 2px gray;
-  overflow: visible;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0);
+  overflow:visible;
 }
 
 .pokemon_image {
   width: 300px;
   height: 300px;
-  position: relative;
 }
 
 .pokemon_image:hover {
@@ -45,16 +44,27 @@
   border-radius: 10px;
 }
 
+.card_header h3::first-letter{
+  text-transform: capitalize;
+  margin-left: 5px;
+}
+
 .card_header div {
-  font-size: 30px;
+  font-family: 'Press Start 2P', cursive;;
+
+  font-size: 20px;
   padding-left: 2px;
   font-weight: 600;
   display: flex;
-}
+  align-items: center;}
 
 .card_header h3 {
-  font-size: 30px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;;
+
+  
 }
+
 
 .card_footer div {
   margin: 10px 0;
@@ -97,25 +107,32 @@
 
 .pokemon_stats {
   position: absolute;
-  background-color: var(--white-primary);
+  background:var(--background-gradient);
   flex-direction: column;
   z-index: 10;
-  margin-top: 40px;
-  height: 400px;
-  border-radius: 0 0 10px 10px;
+  left: 9px;
+  top: 50px;
+  height: 450px;
+  border-radius:20px;
   border: 2px solid var(--black-primary);
-  display: flex;
   justify-content: end;
   overflow: hidden;
+  width: 300px;
 }
 
 .pokemon_stats div {
-  justify-content: space-between;
   font-size: 25px;
-  border-bottom: 2px solid;
   padding: 10px;
+  box-shadow: 2px 2px 5px;
   color: var(--black-primary);
+  background-color: rgba(255, 255, 255, 0.679);
+  margin: 8px 5px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  min-width: 275px;
+  font-family: lexend,sans-serif;
 }
+
 
 .pokemon_stats :last-child {
   border: none;
