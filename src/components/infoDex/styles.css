@@ -30,3 +30,9 @@
     display: flex;
   }
 }
+
+
+.search_container{
+  display: flex;
+  align-items: center;
+}

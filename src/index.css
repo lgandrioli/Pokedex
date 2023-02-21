@@ -1,39 +1,51 @@
-  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;600;800&family=Press+Start+2P&family=Roboto:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;600;800&family=Press+Start+2P&family=Roboto:wght@300;400;700;900&display=swap");
 
-:root{
-/*Colors:*/
---red-primary:#f74646;
---white-primary:#fefefe;
---black-primary: #121212;
---background-gradient:linear-gradient(to left,rgb(205, 11, 244)  ,rgb(132, 232, 241))
-
-
-
-
-
-
-
-}
-*{
-    margin: 0;
-    font-family: "Lexend",sans-serif;
+:root {
+  /*Colors:*/
+  --red-primary: #f74646;
+  --white-primary: #fefefe;
+  --black-primary: #121212;
+  --background-gradient: linear-gradient(
+    to left,
+    rgb(205, 11, 244),
+    rgb(132, 232, 241)
+  );
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-  }
-  
-  ol, ul {
-    list-style: none;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+
+
+* {
+  margin: 0;
+  font-family: "Lexend", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

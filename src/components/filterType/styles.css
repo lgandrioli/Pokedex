@@ -1,0 +1,31 @@
+.custom-select{
+ height: 50px;
+ position: absolute;
+ top: 220px;
+ border-radius: 10px;
+ background: var(--red-primary);
+ z-index: 10;
+ width: 380px;
+ text-align: center;
+ font-size: 30px;
+ box-shadow: 2px 2px 5px white;
+ color: var(--white-primary);
+}
+
+
+.custom-option{
+    background-color:var(--red-primary);
+    text-align: left;
+}
+
+
+
+
+.filter_button{
+    cursor:pointer;
+    position: relative;
+    border: none;
+    background: none;
+    left: 10px;
+}
+

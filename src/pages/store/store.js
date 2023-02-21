@@ -99,35 +99,34 @@ const Store = () => {
       </div>
       <div className="cart_container">
         your cart
-        <button onClick={handleShowCart} className="button_cart">
-          <IoCart size={40} />
-          {showCart && (
-            <>
-              <div className="cart" ref={cartRef}>
-                <button onClick={handleShowCart} className="closeicon">
-                  <CiCircleRemove size={30} />
-                </button>
-                {cartItems.length === 0 ? (
-                  <p className="cart_text">
-                    Your cart is empty :( ... Try adding something to it!
-                  </p>
-                ) : (
-                  <ul className="cart_list">
-                    {cartItems.map((item) => (
-                      <li key={item.name} className="cart_item">
-                        <img src={item.sprite} alt={item.name} />
-                        {item.name} ${item.cost}
-                        <div onClick={(event) => removeFromCart(event, item)}>
-                          <CiCircleRemove size={20} />
-                        </div>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-            </>
-          )}
-        </button>
+        <button onClick={handleShowCart} className="button_cart"><IoCart size={40} /></button>
+        
+        {showCart && (
+          <>
+            <div className="cart" ref={cartRef}>
+              <button onClick={handleShowCart} className="closeicon">
+                <CiCircleRemove size={30} />
+              </button>
+              {cartItems.length === 0 ? (
+                <p className="cart_text">
+                  Your cart is empty :( ... Try adding something to it!
+                </p>
+              ) : (
+                <ul className="cart_list">
+                  {cartItems.map((item) => (
+                    <li key={item.name} className="cart_item">
+                      <img src={item.sprite} alt={item.name} />
+                      {item.name} ${item.cost}
+                      <div onClick={(event) => removeFromCart(event, item)}>
+                        <CiCircleRemove size={20} />
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </>
+        )}
       </div>
       <div className="pokemon_items_list">
         {pokemonItems &&

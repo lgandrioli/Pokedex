@@ -23,7 +23,7 @@ function Pokemon(props) {
 
   return (
     <body className="pokemon_card">
-      <div className={pokemon.types[1,0].type.name}>
+      <div className={pokemon.types[0].type.name}>
         <div className="card_header">
           <div>
             <h3>{pokemon.name}</h3>

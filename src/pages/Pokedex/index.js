@@ -7,6 +7,8 @@ import {
 
 import Infodex from "../../components/infoDex";
 import SearchBar from "../../components/searchbar";
+import { options } from "../../components/filterType/options";
+import Select from "../../components/filterType";
 
 function Pokedex() {
   const [page, setPage] = useState(0);
@@ -15,22 +17,28 @@ function Pokedex() {
   const [, setNotFound] = useState(false);
 
   const [pokemons, setPokemons] = useState([]);
+  const [filter, setFilter] = useState("all");
 
   const itemsPerPage = 20;
 
-
-
-
-  const fetchPokemons = async () => {
+  const fetchPokemons = async (type) => {
     try {
       setLoading(true);
-      const data = await getPokemons(itemsPerPage, itemsPerPage * page);
+      const data = await getPokemons(itemsPerPage, itemsPerPage * page, type);
       const promises = data.results.map(async (pokemon) => {
         return await getPokemonData(pokemon.url);
       });
 
       const results = await Promise.all(promises);
-      setPokemons(results);
+      setPokemons(
+        results.filter(
+          (pokemon) =>
+            filter === "all" ||
+            pokemon.types.some(
+              (type) => type.type.name === filter
+            )
+        )
+      );
       setLoading(false);
       setTotalPages(Math.ceil(data.count / itemsPerPage));
     } catch (error) {
@@ -45,7 +53,7 @@ function Pokedex() {
 
     setLoading(true);
     setNotFound(false);
-    const result = await searchPokemon(pokemon);
+    const result = await searchPokemon(pokemon, filter);
     if (!result) {
       setLoading(false);
       setNotFound(true);
@@ -56,22 +64,28 @@ function Pokedex() {
   };
 
   useEffect(() => {
-    fetchPokemons();
-  }, [page])
-
-
-  
+    fetchPokemons(filter);
+  }, [page, filter]);
+  const handleFilterChange = (e) => {
+    setFilter(e.target.value);
+  };
 
   return (
     <div className="pokedex">
-      <SearchBar   onSearch={onSearchHandler}/>
+      <div className="search_container">
+        <Select
+          options={options}
+          value={filter}
+          onChange={handleFilterChange}
+        />
+        <SearchBar onSearch={onSearchHandler} />
+      </div>
       <Infodex
         pokemons={pokemons}
         loading={loading}
         page={page}
         totalPages={totalPages}
         setPage={setPage}
-      
       />
     </div>
   );
