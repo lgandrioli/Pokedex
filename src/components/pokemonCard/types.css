@@ -5,11 +5,9 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-
-  border: 1px solid black;
+  color: black;
 }
 .fire {
   background: linear-gradient(90deg, #ee8130, #d16627);
@@ -18,10 +16,9 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 
 .water {
@@ -31,36 +28,31 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 .bug {
   background: linear-gradient(90deg, #a6b91a, #8f9f17);
   padding: 10px;
-
   border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 .normal {
   background: linear-gradient(90deg, #a8a77a, #8e8e6d);
   padding: 10px;
-
   border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 
 .poison {
@@ -70,24 +62,21 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
+  color: #13022e;
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 .electric {
- background: linear-gradient(90deg, #f7d02c, #e6b728);
-
-
+  background: linear-gradient(90deg, #f7d02c, #e6b728);
   padding: 10px;
   border-radius: 5px 20px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 
 .ground {
@@ -97,10 +86,9 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 
 .fairy {
@@ -110,10 +98,9 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 .psychic {
   background: linear-gradient(90deg, #f95587, #e64474);
@@ -122,10 +109,9 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 .fighting {
   background: linear-gradient(90deg, #c22e28, #a82420);
@@ -134,10 +120,9 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 .rock {
   background: linear-gradient(90deg, #b6a136, #9f8831);
@@ -146,10 +131,9 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 .ice {
   background: linear-gradient(90deg, #96d9d6, #80b9b7);
@@ -158,10 +142,10 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+
+  color: black;
 }
 .ghost {
   background: linear-gradient(90deg, #735797, #654c8c);
@@ -170,10 +154,9 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 .dragon {
   background: linear-gradient(90deg, #6f35fc, #6631d1);
@@ -182,10 +165,9 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 .dark {
   background: linear-gradient(90deg, #705746, #5e4d3f);
@@ -194,10 +176,9 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 .flying {
   background: linear-gradient(90deg, #a98ff3, #8f70e7);
@@ -206,10 +187,9 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }
 
 .steel {
@@ -219,8 +199,7 @@
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-    box-shadow: 2px 2px 2px var(--black-primary);
-
+  box-shadow: 2px 2px 2px var(--black-primary);
   min-width: 100px;
-  border: 1px solid black;
+  color: black;
 }

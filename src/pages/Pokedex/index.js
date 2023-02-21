@@ -19,6 +19,8 @@ function Pokedex() {
   const itemsPerPage = 20;
 
 
+
+
   const fetchPokemons = async () => {
     try {
       setLoading(true);
