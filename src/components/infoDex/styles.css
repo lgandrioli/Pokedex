@@ -4,6 +4,7 @@
   flex-direction: column;
   padding: 20px;
   background:var(--background-gradient);
+  overflow: hidden;
 
 }
 
@@ -29,10 +30,15 @@
     justify-content: center;
     display: flex;
   }
+  .search_container{
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
 
 
 .search_container{
-  display: flex;
-  align-items: center;
-}
+  display: contents;
+display: flex;}
+
