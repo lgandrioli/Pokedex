@@ -10,4 +10,8 @@ npm start
 
 npm run backend //to fetch the api 
 
-<img src="https://ik.imagekit.io/lgandrioli/image.png?ik-sdk-version=javascript-1.4.3&updatedAt=1676598372888" alt="pokedex">
+
+
+
+https://user-images.githubusercontent.com/74163919/220502832-0380fda3-aa92-45da-bc39-002bf93861a5.mp4
+
