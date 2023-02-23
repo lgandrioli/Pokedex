@@ -3,7 +3,7 @@ import "./styles.css";
 import { HiOutlineMagnifyingGlass } from "react-icons/hi2"
 
 const SearchBar = (props) => {
-  const [search, setSearch] = useState("ditto");
+  const [search, setSearch] = useState();
   const {onSearch} = props
   const onChangeHandler = (e) => {
     setSearch(e.target.value);
