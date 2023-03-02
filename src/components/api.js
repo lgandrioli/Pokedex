@@ -38,4 +38,3 @@ export const pokemonType = async (pokemon) => {
 };
 
 
-console.log(pokemonType)
