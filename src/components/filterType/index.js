@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-import { FaFilter } from "react-icons/fa";
+import { FaSlidersH } from "react-icons/fa";
 
 const Select = ({ options, value, onChange }) => {
   const [open, setIsOpen] = useState(false);
@@ -11,7 +11,7 @@ const Select = ({ options, value, onChange }) => {
   return (
     <>
       <button onClick={handleOpen} className="filter_button">
-        <FaFilter size={40} />
+        <FaSlidersH size={40} />
       </button>
       {open && (
         <select value={value} onChange={onChange} className="custom-select">

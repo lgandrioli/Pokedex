@@ -4,7 +4,7 @@ import './styles.css'
 function Pagination(props) {
   const { page, totalPages, onPreviousClick, onNextClick } = props;
   return (
-    <body className="pagination_container">
+    <div className="pagination_container">
       <div className="pagination">
       <button onClick={onPreviousClick}className="pagination_button">
         <FaChevronLeft size={20}/>
@@ -16,7 +16,7 @@ function Pagination(props) {
         <FaChevronRight size={20}/>
       </button>
       </div>
-    </body>
+    </div>
   );
 }
 
